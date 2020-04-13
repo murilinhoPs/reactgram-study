@@ -15,10 +15,8 @@ ________________________________________________________________________________
 
 <p align="center">
     <img align="center" src="assets/videos/app-demo.gif" alt="Home-animated" height="400">
- </p>
-<p align="center">
     <img align="center" src="assets/images/desktop-view.png" alt="Home-no-animated"  width="310">
-    <img align="center" src="assets/images/mobile-view.png" alt="Home-animated" height="300"> 
+
 </p>
 _________________________________________________________________________________________________________________________________________
 
