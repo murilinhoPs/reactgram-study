@@ -1,0 +1,84 @@
+.Photo {
+  margin-bottom: 30px;
+  border-radius: 2px;
+  border: 1.5px solid whitesmoke;
+}
+
+.Photo .Photo-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.Photo .Photo-container img {
+  max-height: 350px;
+  width: auto;
+  max-width: 100%;
+}
+
+.Photo legend {
+  margin: 5px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.Photo legend text {
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.Photo .Photo-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid whitesmoke;
+  padding: 12px;
+}
+.Photo .Photo-header .Profile {
+  display: flex;
+  height: 30px;
+}
+.Photo .Photo-header .Profile .Profile-name {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 15px;
+}
+.Photo .Photo-header .Profile .Profile-name a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 16px;
+}
+.Photo .Photo-header .Profile .Profile-name text {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 11px;
+}
+.Photo .Photo-header .Profile .Profile-photo {
+  margin: 0px;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  overflow: hidden;
+  padding-bottom: 1px;
+}
+
+.Photo-footer .footer-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 5px;
+}
+.Photo-footer .likes {
+  padding-left: 15px;
+}
+.likes text {
+  font-size: 11px;
+}
+.footer-icons .primary-icons {
+  display: flex;
+  flex-direction: row;
+  width: 25%;
+  justify-content: space-evenly;
+  padding-top: 5px;
+}
