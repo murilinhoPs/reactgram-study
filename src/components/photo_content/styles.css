@@ -33,34 +33,39 @@
   border-bottom: 1px solid whitesmoke;
   padding: 12px;
 }
-.Photo .Photo-header .Profile {
+.Photo-header .Profile {
   display: flex;
   height: 30px;
+  align-content: center;
+  justify-content: center;
 }
-.Photo .Photo-header .Profile .Profile-name {
+.Photo-header .Profile .Profile-name {
   display: flex;
   align-items: center;
   flex-direction: column;
   padding-left: 15px;
 }
-.Photo .Photo-header .Profile .Profile-name a {
+.Profile .Profile-name a {
   text-decoration: none;
   color: whitesmoke;
   font-weight: bold;
   font-size: 16px;
 }
-.Photo .Photo-header .Profile .Profile-name text {
+.Profile .Profile-name text {
   text-decoration: none;
   color: whitesmoke;
   font-size: 11px;
 }
-.Photo .Photo-header .Profile .Profile-photo {
+.Profile .Profile-photo {
   margin: 0px;
-  height: 35px;
-  width: 35px;
+  height: 37px;
+  width: 37px;
   border-radius: 50%;
   overflow: hidden;
-  padding-bottom: 1px;
+}
+.Profile .Profile-photo img {
+  width: 100%;
+  height: auto;
 }
 
 .Photo-footer .footer-icons {

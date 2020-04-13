@@ -26,7 +26,7 @@ function App() {
     user: {
       name: "github",
       profile_image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSTsjEwUaj7SjHQ4Encep0VJOz-ODloafMTUOPLi0Wg_x5wsg3q&usqp=CAU",
+        "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
       link: "https://www.instagram.com/github/",
     },
     legend: "Open collaboration on COVID-19",
