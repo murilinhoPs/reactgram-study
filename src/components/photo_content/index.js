@@ -11,8 +11,6 @@ const Photo = ({ url, legend, name, profile_image, profile_link }) => {
 
   const changeIcon = () => {
     setState({ curtiu: !state.curtiu });
-
-    console.log("changeIcon");
   };
 
   const PhotoHeader = () => (
