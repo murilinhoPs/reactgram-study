@@ -62,8 +62,11 @@ const Photo = ({ url, legend, name, profile_image, profile_link }) => {
 
       <div className="Photo-container">
         <img src={url} alt="Foto" />
+        
       </div>
-
+      <legend>
+      {name} <text>{legend}</text>
+    </legend>
       <div className="Photo-footer">
         <FooterIcons />
         {state.curtiu && (
@@ -72,9 +75,7 @@ const Photo = ({ url, legend, name, profile_image, profile_link }) => {
           </div>
         )}
 
-        <legend>
-          {name} <text>{legend}</text>
-        </legend>
+        
       </div>
     </div>
   );

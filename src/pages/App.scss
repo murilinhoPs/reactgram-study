@@ -1,0 +1,10 @@
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+.App {
+  padding-top: 30px;
+  flex-grow: 1;
+  margin: 0 auto;
+  max-width: 600px;
+  position: relative;
+  width: 95%;
+}

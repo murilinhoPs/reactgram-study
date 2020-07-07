@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-
+import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import Photo from "../components/photo_content/index";
 
 function App() {
@@ -33,28 +33,30 @@ function App() {
   };
 
   return (
-    <div className="App">
-      <Photo
-        url={myProfileData.src}
-        legend={myProfileData.legend}
-        name={myProfileData.user.name}
-        profile_image={myProfileData.user.profile_image}
-        profile_link={myProfileData.user.link}
-      />
-      <Photo
-        url={myFlutterData.src}
-        legend={myFlutterData.legend}
-        name={myProfileData.user.name}
-        profile_image={myProfileData.user.profile_image}
-        profile_link={myProfileData.user.link}
-      />
-      <Photo
-        url={gitHubData.src}
-        legend={gitHubData.legend}
-        name={gitHubData.user.name}
-        profile_image={gitHubData.user.profile_image}
-        profile_link={gitHubData.user.link}
-      />
+    <div className="App container-fluid">
+      
+        <Photo
+          url={myProfileData.src}
+          legend={myProfileData.legend}
+          name={myProfileData.user.name}
+          profile_image={myProfileData.user.profile_image}
+          profile_link={myProfileData.user.link}
+        />
+        <Photo
+          url={myFlutterData.src}
+          legend={myFlutterData.legend}
+          name={myProfileData.user.name}
+          profile_image={myProfileData.user.profile_image}
+          profile_link={myProfileData.user.link}
+        />
+        <Photo
+          url={gitHubData.src}
+          legend={gitHubData.legend}
+          name={gitHubData.user.name}
+          profile_image={gitHubData.user.profile_image}
+          profile_link={gitHubData.user.link}
+        />
+      
     </div>
   );
 
